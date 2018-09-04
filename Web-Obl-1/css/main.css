@@ -36,6 +36,33 @@ html, body {
     height: 100%;
 }
 
+.contentHeader {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.contentInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentText {
+    display: flex;
+    max-width: 66%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contentTable {
+    display: flex;
+    padding-left: 2%;
+    max-width: 33%;
+    padding-right: 2%;
+}
+
 .footer {
     height: 150px;
     margin-top: -200px;
