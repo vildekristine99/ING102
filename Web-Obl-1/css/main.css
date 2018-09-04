@@ -4,6 +4,9 @@ html, body {
     height: 100%;
 }
 
+.container {
+    height: 100%;
+}
 
 .header {
     height: 50px;
@@ -26,3 +29,17 @@ html, body {
 .firstHeaderElement:hover, .secondHeaderElement:hover, .thirdHeaderElement:hover, .fourthHeaderElement:hover, .fifthHeaderElement:hover{
     background-color: lightgrey;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer {
+    height: 150px;
+    margin-top: -200px;
+    background-color: #282828;
+    color: #f2f2f2;
+}
+
