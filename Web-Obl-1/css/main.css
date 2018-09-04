@@ -1,0 +1,28 @@
+html, body {
+    margin: 0px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+
+.header {
+    height: 50px;
+    background-color: #efefef;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.firstHeaderElement, .secondHeaderElement, .thirdHeaderElement, .fourthHeaderElement, .fifthHeaderElement  {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.firstHeaderElement:hover, .secondHeaderElement:hover, .thirdHeaderElement:hover, .fourthHeaderElement:hover, .fifthHeaderElement:hover{
+    background-color: lightgrey;
+}
